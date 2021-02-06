@@ -4,6 +4,24 @@
 
 *TODO:* run `kubectl` command to show the running pods and services for the three components. Copy and paste the output or take a screenshot of the output and include it here to verify the installation
 
+### Successfully install Grafana, Prometheus, and Jaeger.
+
+![alt text](https://github.com/fthiagomedeiros/CNAND_nd064_C4_Observability_Starter_Files/blob/master/Project_Starter_Files-Building_a_Metrics_Dashboard/images/01.%20ProjectAndClusterStaging/01.%20pods_prometheus_grafana_jaeger.png?raw=true "Successfully install Grafana, Prometheus, and Jaeger.")
+
+
+### Successfully access Grafana’s web UI.
+
+![alt text](https://github.com/fthiagomedeiros/CNAND_nd064_C4_Observability_Starter_Files/blob/master/Project_Starter_Files-Building_a_Metrics_Dashboard/images/01.%20ProjectAndClusterStaging/02.%20grafana_login_home.png?raw=true "Successfully access Grafana’s web UI.")
+
+
+### Locate and share an observability dashboard.
+
+![alt text](https://github.com/fthiagomedeiros/CNAND_nd064_C4_Observability_Starter_Files/blob/master/Project_Starter_Files-Building_a_Metrics_Dashboard/images/01.%20ProjectAndClusterStaging/03.%20grafanadashboard.png?raw=true "Locate and share an observability dashboard.")
+
+
+
+
+
 ## Setup the Jaeger and Prometheus source
 *TODO:* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
 
