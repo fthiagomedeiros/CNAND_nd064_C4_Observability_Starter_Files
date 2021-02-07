@@ -38,12 +38,12 @@ The same as said previously, can be used for request response time. For instance
 ## Creating SLI metrics.
 **_*TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs.**
 
-A Service-Level Indicator (SLI) is a specific metric used to measure the performance of a service. Often these metrics are relevant and built aroung the Foru Golden Signals
+A Service-Level Indicator (SLI) is a specific metric used to measure the performance of a service. These metrics are relevant and built around the Four Golden Signals (Latency, Error Rates, Traffic, Saturation)
 
-* the SLO may be **latency**. The SLI will be the time a request takes to complete. We have to build metrics that stora the time each request takes to complete.
-* the SLO may be **uptime**. The SLI for that must be the error rates in the periof of time. The percentage indicates if we reached the SLO.
-* the SLO may be **saturation**. The SLI for that must be the usage of memory cannot go above 80% 
-* the SLO may be **traffic**. The SLI indicates that the number of requests processed successfully in a specifi period of time.
+* the SLO may be **latency**. The SLI will be the time a **request takes to complete**. We have to trace the time each request takes to complete and order to have an average for that.
+* the SLO may be **uptime**. The SLI for that must be the how many **error messages** we are seeing in the periof of time. Tha value indicates if we reached the SLO.
+* the SLO may be **saturation**. The SLI for that must be the **usage of memory** cannot go above 80% or measuring the **CPU saturation** on order to avoid the effects caused by CPU utilization. Both of these metrics are directly related to system performance.
+* the SLO may be **traffic**. The SLI indicates that **the number of requests** processed successfully in a specifi period of time.
 
 
 
