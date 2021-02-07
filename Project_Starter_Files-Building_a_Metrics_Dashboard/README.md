@@ -31,13 +31,20 @@ _______________________
 ## Describe SLO/SLI
 **_*TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*._**
 
-SLIs are indicators that garantee we have reached the SLO. 
-For instance, in the context of monthly uptime, __the SLO is__ **"the service has an monthly uptime of 99.99%."**. It stands for we expect that in the current month, our service will be available 99.99% of the time. To confirm that we have reached this objective, we must evaluate the error rates in order to know if the uptime in the last month was the expected. 
+SLIs are indicators that garantee we have reached the SLO. For instance, __the SLO is__ **"the service has an monthly uptime of 99.99%."**. It means we expect that in the period of a month, our service will be available 99.99% of the time. To confirm that we have reached this objective, we must evaluate the error rates in order to know if the uptime in the last month was the expected. 
 
 The same as said previously, can be used for request response time. For instance, __the SLO is__ **"the service has a request response time of 200ms monthly".** It means we expect each request response (in average) must be 200ms. The SLI indicates that we have reached the expected value from SLO.
 
 ## Creating SLI metrics.
 **_*TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs.**
+
+A Service-Level Indicator (SLI) is a specific metric used to measure the performance of a service. Often these metrics are relevant and built aroung the Foru Golden Signals
+
+* the SLO may be **latency**. The SLI will be the time a request takes to complete. We have to build metrics that stora the time each request takes to complete.
+* the SLO may be **uptime**. The SLI for that must be the error rates in the periof of time. The percentage indicates if we reached the SLO.
+* the SLO may be **saturation**. The SLI for that must be the usage of memory cannot go above 80% 
+* the SLO may be **traffic**. The SLI indicates that the number of requests processed successfully in a specifi period of time.
+
 
 
 
