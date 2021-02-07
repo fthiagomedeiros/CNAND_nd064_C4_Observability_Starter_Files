@@ -4,29 +4,20 @@
 
 #### Run `kubectl` command to show the running pods and services for the three components. Copy and paste the output or take a screenshot of the output and include it here to verify the installation
 
-#### Successfully install Grafana, Prometheus, and Jaeger.
-
 ![alt text](https://github.com/fthiagomedeiros/CNAND_nd064_C4_Observability_Starter_Files/blob/master/Project_Starter_Files-Building_a_Metrics_Dashboard/images/01.%20ProjectAndClusterStaging/01.%20pods_prometheus_grafana_jaeger.png?raw=true "Successfully install Grafana, Prometheus, and Jaeger.")
 
-
-#### Successfully access Grafana’s web UI.
+#### Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
 
 ![alt text](https://github.com/fthiagomedeiros/CNAND_nd064_C4_Observability_Starter_Files/blob/master/Project_Starter_Files-Building_a_Metrics_Dashboard/images/01.%20ProjectAndClusterStaging/02.%20grafana_login_home.png?raw=true "Successfully access Grafana’s web UI.")
 
 
-#### Locate and share an observability dashboard.
+#### Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
 
 ![alt text](https://github.com/fthiagomedeiros/CNAND_nd064_C4_Observability_Starter_Files/blob/master/Project_Starter_Files-Building_a_Metrics_Dashboard/images/01.%20ProjectAndClusterStaging/03.%20grafanadashboard.png?raw=true "Locate and share an observability dashboard.")
 
 
-_______________________
-## Create a Basic Dashboard
-*TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
-_______________________
-
-
 ## Describe SLO/SLI
-**_*TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*._**
+**Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.**
 
 SLIs are indicators that garantee we have reached the SLO. For instance, __the SLO is__ **"the service has an monthly uptime of 99.99%."**. It means we expect that in the period of a month, our service will be available 99.99% of the time. To confirm that we have reached this objective, we must evaluate the error rates in order to know if the uptime in the last month was the expected. 
 
@@ -41,10 +32,6 @@ A Service-Level Indicator (SLI) is a specific metric used to measure the perform
 * the SLO may be **uptime**. The SLI for that must be the how many **error messages** we are seeing in the periof of time. Tha value indicates if we reached the SLO.
 * the SLO may be **saturation**. The SLI for that must be the **usage of memory** cannot go above 80% or measuring the **CPU saturation** on order to avoid the effects caused by CPU utilization. Both of these metrics are directly related to system performance.
 * the SLO may be **traffic**. The SLI indicates that **the number of requests** processed successfully in a specifi period of time.
-
-
-
-
 
 ## Create a Dashboard to measure our SLIs
 *TODO:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
