@@ -24,7 +24,7 @@ SLIs are indicators that garantee we have reached the SLO. For instance, __the S
 The same as said previously, can be used for request response time. For instance, __the SLO is__ **"the service has a request response time of 200ms monthly".** It means we expect each request response (in average) must be 200ms. The SLI indicates that we have reached the expected value from SLO.
 
 ## Creating SLI metrics.
-**_*TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs.**
+**It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs.**
 
 A Service-Level Indicator (SLI) is a specific metric used to measure the performance of a service. These metrics are relevant and built around the Four Golden Signals (Latency, Error Rates, Traffic, Saturation)
 
