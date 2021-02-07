@@ -18,11 +18,8 @@
 
 ![alt text](https://github.com/fthiagomedeiros/CNAND_nd064_C4_Observability_Starter_Files/blob/master/Project_Starter_Files-Building_a_Metrics_Dashboard/images/01.%20ProjectAndClusterStaging/03.%20grafanadashboard.png?raw=true "Locate and share an observability dashboard.")
 
+
 _______________________
-
-## Setup the Jaeger and Prometheus source
-*TODO:* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
-
 ## Create a Basic Dashboard
 *TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
 _______________________
