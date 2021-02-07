@@ -2,7 +2,7 @@
 
 ## Verify the monitoring installation
 
-### Run `kubectl` command to show the running pods and services for the three components. Copy and paste the output or take a screenshot of the output and include it here to verify the installation
+#### Run `kubectl` command to show the running pods and services for the three components. Copy and paste the output or take a screenshot of the output and include it here to verify the installation
 
 #### Successfully install Grafana, Prometheus, and Jaeger.
 
