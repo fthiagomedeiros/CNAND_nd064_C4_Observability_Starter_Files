@@ -18,15 +18,15 @@
 
 ![alt text](https://github.com/fthiagomedeiros/CNAND_nd064_C4_Observability_Starter_Files/blob/master/Project_Starter_Files-Building_a_Metrics_Dashboard/images/01.%20ProjectAndClusterStaging/03.%20grafanadashboard.png?raw=true "Locate and share an observability dashboard.")
 
-
-
-
+_______________________
 
 ## Setup the Jaeger and Prometheus source
 *TODO:* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
 
 ## Create a Basic Dashboard
 *TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
+_______________________
+
 
 ## Describe SLO/SLI
 *TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.
@@ -34,7 +34,7 @@
 SLIs are indicators that garantee we have reached the SLO. 
 For instance, in the context of monthly uptime, __the SLO is__ **"the service has an monthly uptime of 99.99%."**. It stands for we expect that in the current month, our service will be available 99.99% of the time. To confirm that we have reached this objective, we must evaluate the error rates in order to know if the uptime in the last month was the expected. 
 
-The same as said previously, can be used for request response time. For instance, __the SLO is__ **"the service has a request response time of 200ms monthly".** It means we expect the request response time (in average) must be 200ms. The SLI indicates that we have reached the expected value from SLO.
+The same as said previously, can be used for request response time. For instance, __the SLO is__ **"the service has a request response time of 200ms monthly".** It means we expect each request response (in average) must be 200ms. The SLI indicates that we have reached the expected value from SLO.
 
 ## Creating SLI metrics.
 *TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs. 
