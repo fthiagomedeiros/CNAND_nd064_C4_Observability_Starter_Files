@@ -29,7 +29,7 @@ _______________________
 
 
 ## Describe SLO/SLI
-*TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.
+**_*TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*._**
 
 SLIs are indicators that garantee we have reached the SLO. 
 For instance, in the context of monthly uptime, __the SLO is__ **"the service has an monthly uptime of 99.99%."**. It stands for we expect that in the current month, our service will be available 99.99% of the time. To confirm that we have reached this objective, we must evaluate the error rates in order to know if the uptime in the last month was the expected. 
@@ -37,7 +37,10 @@ For instance, in the context of monthly uptime, __the SLO is__ **"the service ha
 The same as said previously, can be used for request response time. For instance, __the SLO is__ **"the service has a request response time of 200ms monthly".** It means we expect each request response (in average) must be 200ms. The SLI indicates that we have reached the expected value from SLO.
 
 ## Creating SLI metrics.
-*TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs. 
+**_*TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs.**
+
+
+
 
 ## Create a Dashboard to measure our SLIs
 *TODO:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
