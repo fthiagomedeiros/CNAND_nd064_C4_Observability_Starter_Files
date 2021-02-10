@@ -65,7 +65,12 @@ Description:
 
 
 ## Creating SLIs and SLOs
-*TODO:* We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name three SLIs that you would use to measure the success of this SLO.
+**We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name three SLIs that you would use to measure the success of this SLO.**
+
+- The __proportion of successful requests__. Any HTTP status other than 500–599 is considered successful. This indicator should be less than 0.05%
+- The __time request takes to complete__ cannot be greater than 400ms
+- The __number of complains tickets__ opened in the support by customers complaining about the use of the system. This indicator cannot be grater that 3 a day.
+
 
 ## Building KPIs for our plan
 *TODO*: Now that we have our SLIs and SLOs, create KPIs to accurately measure these metrics. We will make a dashboard for this, but first write them down here.
