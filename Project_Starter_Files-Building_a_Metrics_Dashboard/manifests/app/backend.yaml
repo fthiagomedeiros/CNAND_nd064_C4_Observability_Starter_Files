@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: backend-app
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: backend
@@ -28,4 +28,4 @@ spec:
   ports:
     - port: 80
       targetPort: 8080
-  type: LoadBalancer
+#  type: LoadBalancer

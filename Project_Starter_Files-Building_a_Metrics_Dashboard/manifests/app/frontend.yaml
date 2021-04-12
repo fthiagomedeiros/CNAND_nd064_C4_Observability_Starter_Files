@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: frontend-app
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: frontend
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/thejaysmith/myfrontend:v1
+        image: fthiagomedeiros/frontend-observability:latest
         ports:
         - containerPort: 8080
 ---
@@ -28,4 +28,4 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
-  type: LoadBalancer
+#  type: LoadBalancer
